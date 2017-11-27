@@ -1,0 +1,146 @@
+/* BACKGROUND */
+#backgroundimage {
+	background-image:url('../images/home.jpg');
+}
+
+
+
+/* END BACKGROUND */
+
+/* GENERAL ITEMS */
+
+#projects , #otherwork {
+	position:relative;
+	background:rgba(249,249,251,0.6);
+}
+
+.containeritem {
+	text-align:center;
+	width:100%;
+	height:auto;
+	background-size:100% 100%;
+	position:relative;
+	display:block;
+	transition: all .25s ease-in-out;
+}
+
+.containeritem h3 {
+	display:block;
+	vertical-align:middle;
+	margin:1em auto 0.5em;
+	line-height:1em;
+}
+
+.containeritem h4 {
+	line-height:2em;
+}
+
+.containeritem h6 {
+	display:block;
+	vertical-align:middle;
+	margin:0.5em auto 1em;
+}
+
+#projecthead , #otherworkhead {padding:1em 0;margin:0;}
+
+#otherworkwrap span {padding-bottom:0.5em;}
+
+.containeritem div {
+	color:#FFFFFF;
+	width:100%;
+	padding:2em 0;
+	background:rgba(110,119,131,0.6);
+	z-index:2;
+}
+
+.containeritem:hover div {
+	background:rgba(201,148,52,0.8);
+}
+
+.containeritem:hover {text-decoration:none;}
+
+.containeritem h4 {margin:0;}
+
+.containeritem hr {
+  margin: 1em;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+}
+
+#otherworkwrap span {font-style:italic;}
+
+#project1 {	background:url('../projects/whereisthebuswhen1.jpg') no-repeat center;}
+#project2 {	background:url('../projects/colorsoftime1.jpg') no-repeat center;}
+#project3 {	background:url('../projects/1000words1.jpg') no-repeat center;}
+#project4 {	background:url('../projects/jantarmantar1.jpg') no-repeat center;}
+#project5 {	background:url('../projects/solace1.jpg') no-repeat center;}
+#project6 {	background:url('../projects/readysteadygo1.jpg') no-repeat center;}
+
+#other1 {	background:url('../images/spsspa.jpg') no-repeat center;}
+#other2 {	background:url('../images/petcoke.jpg') no-repeat center; background-size:100% auto; }
+#other3 {	background:url('../images/photography.jpg') no-repeat center;}
+#other4 {	background:url('../images/music.jpg') no-repeat center;}
+
+.containeritem {background-size:auto 100%;}
+
+@media screen and (min-width:768px) {
+	.containeritem , #other1 {background-size:100% auto;}
+}
+
+
+
+/* END PROJECT SECTION */
+
+/* PHOTOGRAPHY SECTION */
+#photography {
+	box-shadow:0 0 1em 1em #E0E3DA;
+	margin:3em auto 0;
+}
+/* END PHOTOGRAPHY SECTION*/
+
+/*MUSIC SECTION*/
+
+.album {
+	margin:1em;
+}
+/*END MUSIC SECTION*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 640px) {
+
+	/*PROJECTS*/
+	.project , .projecttext {width:100%;}
+	.two.columns {display:block;;}
+}
+
+/* Larger than tablet */
+@media (min-width: 769px) {
+
+ /*PROJECTS*/
+
+	.projecttext {display:none;}
+
+	#project1:hover #projecttext1 {display:block;}
+	#project2:hover #projecttext2 {display:block;}
+	#project3:hover #projecttext3 {display:block;}
+	#project4:hover #projecttext4 {display:block;}
+	#project5:hover #projecttext5 {display:block;}
+	#project6:hover #projecttext6 {display:block;}
+
+	.projecttext div hr , .projecttext div p {display:block;}
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+	/*PROJECTS*/
+	.project , .projecttext {width:100%;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1280px) {
+}

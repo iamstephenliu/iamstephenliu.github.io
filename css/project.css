@@ -1,0 +1,97 @@
+@media screen and (max-width:768px) {
+  header {padding:8em 0;}
+}
+
+#tagline {letter-spacing:0em;}
+
+.containeritem {
+  padding:1em 2em;
+  line-height:1.7em;
+  clear:both;
+}
+
+@media screen and (min-width:768px) {
+  .containeritem {
+    padding:1em 4em;
+  }
+}
+
+.imagebackground {
+  padding:0 !important;
+  line-height:1.7em;
+  clear:both;
+  background-size:auto 100% !important;
+  background-position:center center;
+}
+
+@media screen and (min-size:769px) {
+  .imagebackground {background-size:100% auto;}
+}
+
+.imagebackground div {
+  padding:4em;
+  color:#FFFFFF;
+  background:rgba(110,119,131,0.7);
+	z-index:2;
+}
+
+.imagebackground a {
+  color:#705545;
+}
+
+.imagebackground a:hover {
+  color:#344975;
+}
+
+.grid , .chocolat-parent , .main-carousel {background:none !important;}
+
+.chocolat-parent , .main-carousel , .withimage div , .fullwidthvideo {
+  padding:0;
+}
+
+.main-carousel {margin-bottom:36px;}
+
+.breaktext {
+  line-height:1.2em;
+  color:#344975;
+  border-top: 2px solid #344975;
+  border-bottom: 2px solid #344975;
+  padding: 0.5em;
+  text-align:left;
+}
+
+.sectionvideo {
+  width:100%;
+  height:auto;
+}
+
+h4 {text-align:center;}
+h5 {line-height:2.1em;}
+
+.carousel-cell {
+  height:100%;
+  width:100%;
+}
+
+
+/* CONTENT SECTION WITH IMAGE */
+
+.contentimage {width:100%;}
+
+@media screen and (min-width:768px) {
+  .grid-item {
+    width:45%;
+    display:block;
+    float:left;
+    clear:none;
+  }
+
+  .chocolat-parent , .main-carousel , .breaktext {
+    width:45%;
+    display:block;
+    float:right;
+    clear:none;
+  }
+
+  span.chocolat-parent {float:none;display:inline;}
+}

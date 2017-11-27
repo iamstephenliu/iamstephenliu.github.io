@@ -1,0 +1,136 @@
+#resumehead {
+  margin:0 2em;
+  text-align:center;
+  line-height: 2em;
+  border-bottom:2px solid #000;
+}
+
+#gohome {
+  margin:0 2em;
+  text-align:center;
+  border-top:2px solid #000;
+  clear:both;
+}
+
+#resumehead h3 , #gohome h3 {
+  padding:1em 0 0.5em;
+  margin:0;
+}
+
+#resumehead h6 , #gohome h6 {
+  padding:0.5em 0 1em;
+  margin:0;
+}
+
+#work_experience , #skills {margin:0 2em;}
+
+@media screen and (min-width:768px) {
+  #work_experience , #resumehead , #skills {
+    margin:0 4em;
+  }
+}
+h4 {
+  color:#705545;
+  margin:1em 0 0.5em;
+  padding:0;
+}
+
+.resumeitem {
+  position:relative;
+  display:block;
+  padding:1em 0;
+}
+
+.timeplace span {
+  display:block;
+}
+
+@media screen and (min-width:768px) {
+  .timeplace {
+    position:absolute;
+    top:1em;
+    right:0;
+  }
+
+  .timeplace span {
+    text-align:right;
+  }
+}
+
+.resumeitem h5 {
+  padding:0;
+  margin:0;
+  color:#344975;
+}
+
+.resumeitem h6 {
+  padding:0;
+  margin:0;
+  color:#5C8AAF;
+  line-height:1.8em;
+}
+
+.related {
+  font-weight:600;
+  padding-left:1em;
+}
+.relatedlist {
+  margin:0.5em 0;
+  padding-left:1em;
+}
+.relatedlist li {list-style-type: none;}
+
+#skills ul {
+  padding:0;
+}
+
+#skills li {
+  list-style-type: none;
+  line-height:1.5em;
+  font-size:1.1em;
+}
+
+.half {
+  width:50%;
+  float:left;
+}
+
+.quarter {
+  width:25%;
+  float:left;
+}
+
+@media screen and (max-width:768px) {
+  .half {
+    width:100%;
+    float:none;
+  }
+
+  .quarter {
+    width:50%;
+    float:left;
+  }
+
+  #skills {
+    padding-bottom:2em;
+  }
+
+  #skills li {
+    font-size:1em;
+  }
+}
+
+a {
+  text-decoration:none;
+  color:#5C8AAF;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:#705545;
+}
+
+a:visited {
+  text-decoration:none;
+  color:#5C8AAF;
+}
